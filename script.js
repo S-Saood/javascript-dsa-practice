@@ -557,16 +557,16 @@
 
 
 // 33 - all zeros in left 
-let arr = [0, 2, 30, 45, 0, 6,  0, 8, 0]
+// let arr = [0, 2, 30, 45, 0, 6,  0, 8, 0]
 
 
-for(let i = 0; i < arr.length; i++){
-  for(let j = 0; j < i; j++){
-    if(arr[i] !== 0){
+// for(let i = 0; i < arr.length; i++){
+//   for(let j = 0; j < i; j++){
+//     if(arr[i] !== 0){
       
-    }
-  }
-}
+//     }
+//   }
+// }
 
 
 
@@ -1075,7 +1075,7 @@ for(let i = 0; i < arr.length; i++){
 
 
 
-// ---------if -else--------------------
+//=============IF-ELSE==============
 
 // leap year
 // let year = Number(prompt("Enter a year: "))
@@ -1149,6 +1149,9 @@ for(let i = 0; i < arr.length; i++){
 // }
 
 
+
+
+
 // PRime number
 
 // let n = Number(prompt("Enter a number"))
@@ -1172,3 +1175,154 @@ for(let i = 0; i < arr.length; i++){
 //   console.log("Hello", num)
 //   num++
 // }
+
+
+
+
+
+
+// calculate bill
+
+// unit 0-100 = 4/unit
+// unit 101-200 = 6/unit
+// unit 201-400 = 8/unit
+// unit more then 400 = 13/unit
+
+
+// function calculateBill(unit) {
+//   let payableAmount = 0
+
+//   if(unit <= 100){
+//     payableAmount = unit * 4
+
+//   } else if (unit <= 200){
+//     payableAmount = 100 * 4 + (unit - 100) * 6
+  
+//   } else if(unit <= 400){
+//     payableAmount = 100 * 4 + 100 * 6 + (unit - 200) * 8
+
+//   } else {
+//     payableAmount = 100 * 4 + 100 * 6 + 200 * 8 + (unit - 400) * 13
+//   }
+//   return payableAmount
+// }
+
+
+// console.log(calculateBill(400))
+
+
+
+// ==============LOOP==============
+
+// Loops are up of 2 types
+// Entry control loop - for, while
+// Exist control loop - do while
+
+
+
+// 1 - factorail of a number
+
+// let num = 5
+// let factorail = 1
+
+// for(let i = 1; i <= num; i++){
+//   factorail = factorail * i
+// }
+
+// console.log(factorail)
+
+
+
+
+
+// 2 - take a number and print its table
+
+// let num = 5
+
+// for(let i = 1; i <= 10; i++){
+//   console.log(`${5} * ${i} = ${5*i}`)
+// }
+
+
+
+
+
+
+// 3 - sum upto n terms
+
+// let num = 5
+// let sum = 0
+// for(let i = 1; i <= 5; i++){
+//   sum = sum + i
+// }
+
+// console.log(sum)
+
+
+
+// 4 - print the sum of even and odd in range
+// let a = 0
+// let b = 40
+// let evenSum = 0
+// let oddSum = 0
+
+// if(a > b){
+//   let temp = a
+//   a = b
+//   b = temp
+// }
+
+// for(let i = a; i <= b; i++){
+//   if(i % 2 == 0){
+//     evenSum = evenSum + i
+//   } else {
+//     oddSum = oddSum + i
+//   }
+// }
+
+
+// console.log("Even Sum : ", evenSum)
+// console.log("Odd Sum : ", oddSum)
+
+
+
+
+
+
+// all factors of a number
+
+// let num = 50
+
+// for(let i =1; i <= num; i++){
+//   if(num % i == 0){
+//     console.log("Factors :", i)
+//   }
+// }
+
+
+
+
+// prime or not
+
+// let num  = 7
+
+// if(num <= 1){
+//   console.log("Not a prime no", num)
+// } 
+
+// for(let i = 2; i < num; i++){
+//   if(num % i == 0){
+//     console.log("Prime no", num)
+//     break
+//   } else {
+//     console.log("Not prime", num)
+//     break
+//   }
+// }
+
+
+
+
+
+// 2nd way
+
