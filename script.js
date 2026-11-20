@@ -1289,7 +1289,7 @@
 
 
 
-// all factors of a number
+//5. all factors of a number
 
 // let num = 50
 
@@ -1302,7 +1302,11 @@
 
 
 
-// prime or not
+
+
+
+
+//6 prime or not
 
 // let num  = 7
 
@@ -1324,5 +1328,29 @@
 
 
 
-// 2nd way
 
+// 2nd way
+// function primeOrNot(num) {
+//   let count = 0
+
+//   if (num <= 0) {
+//   console.log("Not a prime number", num);
+//   return;
+// }
+
+//   for(let i = 2; i <= num / 2; i++){
+//     if(num % i === 0){
+//       count++
+//     }
+//   }
+
+//   if(count === 0){
+//     console.log("Prime number", num)
+//   } else {
+//     console.log("Not a prime number", num)
+//   }
+// }
+
+// primeOrNot(2)
+// primeOrNot(5)
+// primeOrNot(13)
